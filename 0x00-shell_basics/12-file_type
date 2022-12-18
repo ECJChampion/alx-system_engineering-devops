@@ -1,0 +1,13 @@
+#!/bin/bash
+import os
+
+# Get the path to the file
+file_path = os.path.join("/tmp", "iamafile")
+
+# Open the file in read mode
+with open(file_path, "r") as f:
+  # Read the contents of the file
+  contents = f.read()
+
+# Print the contents of the file
+print(contents)
