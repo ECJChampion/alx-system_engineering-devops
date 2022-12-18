@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -A | awk '{print $0","}' | sed 's/,$//' | sort -f -t',' -k1,1
