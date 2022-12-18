@@ -1,2 +1,2 @@
 #!/bin/bash
-lines.append(lines[-1])
+find . -type f -name "*.js" -delete
