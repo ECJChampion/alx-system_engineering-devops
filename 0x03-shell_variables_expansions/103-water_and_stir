@@ -1,0 +1,2 @@
+#!/bin/bash
+./add_numbers.sh water_value stir_value
