@@ -1,10 +1,2 @@
 #!/bin/bash
-
-# Read the input from stdin
-input=$(cat -)
-
-# Use sed to remove all occurrences of "c" or "C"
-output=$(echo "$input" | sed 's/[cC]//g')
-
-# Print the output to stdout
-echo "$output"
+echo "input text" | ./remove_c.sh
