@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -a | awk '{print $0","}' | sort -k 1.2,1.2 -k 1 | sed 's/ /\\ /g' | tr -d '\n'; echo
