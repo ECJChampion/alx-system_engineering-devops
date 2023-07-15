@@ -1,0 +1,2 @@
+#!/bin/bash
+echo -e "Hello\nEveryone\nGoodbye" | awk '{printf substr($0, 1, 1)} END{print ""}'
